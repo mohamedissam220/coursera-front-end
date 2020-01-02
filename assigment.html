@@ -1,0 +1,128 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 Assignment - Mohamed issam</title>
+</head>
+<style> /*Our styles*/
+	* {box-sizing: border-box;
+		font-family: Lucida Console;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 175%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: silver;
+		border: 1px solid black;
+		width: 100%;
+	}
+	.title1 {
+		float: right;
+		width: 120px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: blue ;	
+	}
+	.title2 {
+		float: right;
+		width: 120px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: chartreuse;	
+	}
+	.title3 {
+		float: right;
+		width: 120px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: gold;	
+	}
+	.content {
+		padding: 10px;
+		border: none;
+		background-color: mediumslateblue;
+		color: mediumspringgreen ;
+		margin: 0px;
+		height: 180px;
+		overflow: auto;
+	}
+
+	/*Desktop*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}}
+	/*Tablet*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}}
+	/*Mobile*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}}
+</style>
+
+<body>  <!-- The Content -->
+<h1>foods *menua*</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="title1">Blabady</p>
+			<p class="content">
+			 Bla bla bla bla bla blaaaa blaaa blaa bla bla bla bla bla blaaaa blaaa blaa bla bla bla bla bla blaaaa blaaa blaa bla bla bla bla bla blaaaa blaaa blaa bla bla blaaa blaa bla bla bla bla bla blaaaa blaaa blaa bla bla bla bla bla blaaaa blaaa blaa bla bla bla bla blabidi blaa!  
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="title2">Yadiyada</p>
+			<p class="content">Yaa ya yadia yada ya yaada yaaadiya yaaa ya ya yaada ya ya yadia yaa ya yaaa yaaadiya yaada ya ya yaaa ya ya yadia yada ya yaaa yaaadiya ya ya yadia yaa ya yaaa yaaadiya yaaa ya ya yaaa ya ya yadia yaa ya yaaa yaaadiya yaaa ya ya yaaadiya yaada ya ya yaaa ya ya yadia ya! </p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+		<div>
+			<p class="title3">Kcoolyea</p>
+			<p class="content">Yeah ummhmm ahaan ok aight cool thanks right um uhmm ahaan k Yeah ummhmm ahaan ok cool thanks right um uhmm ahaan k ummhmm aight um uhmm ahaan k ummhmm ahaan ok cool thanks right um uhmm ahaan k yeah ummhmm ahaan ok cool thanks uhmm ahaan ok cool thanks right! </p>
+		</div>
+	</section>
+</body>
+</html>
